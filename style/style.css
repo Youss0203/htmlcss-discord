@@ -80,6 +80,7 @@ body{
 
 .bg-white{
     background-color: white;
+
 }
 
 .bg-grey{
@@ -91,6 +92,7 @@ header{
 }
 
 section.navigation{
+    background-color: #3161E0;
     padding: .8rem 0;
 }
 
@@ -159,6 +161,7 @@ div.jumbotron{
     background-color: white;
     padding:.7rem;
     border: none;
+
 }
 
 .jumbo-button-black{
@@ -207,8 +210,8 @@ footer{
 div.footer-divider{
     background-color: #8DA1E1;
     height: 1px;
-    width: 100%;
-    margin: 2rem 0;
+    width: 80%;
+    margin: 2rem auto;
 }
 
 section.links{
@@ -228,7 +231,7 @@ div.button{
     color:white;
 }
 
-i{
+.fa-brands {
     margin-top: 1rem;
     margin-right: 1rem;
     color:white;
@@ -245,4 +248,10 @@ i{
     padding:.7rem;
     border: none;
     background-color: #8DA1E1;
+}
+
+.image{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
 }
